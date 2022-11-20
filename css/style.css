@@ -826,6 +826,14 @@ section.padding-60 {
   vertical-align: middle;
   width: 40px;
 }
+@media(max-width: 1200px){
+  .testimonial-item .testimonial-details {
+    text-align: center;
+  }
+  .testimonial-item .testimonial-details .thumb {
+    margin-bottom: 7px;
+  }
+}
 .testimonial-item .testimonial-details .info {
   display: inline-block;
   margin-left: 20px;
